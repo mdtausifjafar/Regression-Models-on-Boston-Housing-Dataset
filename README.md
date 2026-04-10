@@ -10,7 +10,7 @@ The goal is simple: **predict housing prices** using machine learning regression
 
 In the notebook, I:
 
-- Load the Boston Housing dataset from a public URL
+- Load the Boston Housing dataset from a URL
 - Assign proper column names and verify data quality (shape + missing values)
 - Split the data into train/test sets (80/20)
 - Train multiple regression models (linear and non-linear)
@@ -52,7 +52,7 @@ Each line below is **1 column → meaning**:
 ### 1) Load + inspect the data
 
 - I loaded the dataset from the URL and assigned the column names.
-- I confirmed the dataset size (**(506, 14)**) and checked missing values (none).
+- I confirmed the dataset size (506, 14) and checked missing values (none).
 
 ### 2) Train/test split
 
